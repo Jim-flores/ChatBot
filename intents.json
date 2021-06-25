@@ -1,0 +1,82 @@
+{"intents":[
+    {"tag": "saludos",
+        "patterns": ["Hola","Holi","Buenos dias","Buenas tardes", "Buenas noches","Que fue?","Estas ahi?","Hi","Hello",":)" ],
+        "responses": ["Hola!","Hi!","Hola! un gusto conocerte","Hola :)","Encantado de hablar contigo"]
+    },
+
+    {"tag": "estadio",
+        "patterns": ["Como estas?","Que me cuentas?","Como te encuentras?","Como te fue hoy?","Que novedades?"],
+        "responses": ["Estoy bien y encantado de hablar contigo, ¿como estas tu?","Feliz de estar a tu disposicion, ¿como te encuentras tu? ","Estoy disfrutando de tu estadia, ¿Como estas tu?"]
+    },
+
+    {"tag": "feliz",
+        "patterns": ["Me siento feliz", "Estoy feliz","Estoy alegre","Entusiasmado"],
+        "responses": ["Me alegra escuchar que todo va bien","Estar feliz ayuda un mejor ritmo de vida :)","Encantado de escuchar eso"]
+    },
+
+    {"tag": "triste",
+        "patterns": ["Me siento triste", "Estoy triste","Estoy deprimido","Destrozado"],
+        "responses": ["Estar triste disminuye las energias en el cuerpo","Si necesitas apoyo puedes contar conmigo","Recuerda que mañana sera otro dia"]
+    },
+
+    {"tag": "furiosos",
+        "patterns": ["Me siento frustrado", "Estoy renegando","Estoy furioso","Ahh!", "Grrr"],
+        "responses": ["Respira por 30 segundos y exhala","Furioso? eso es malo para la salud* ","Todo tiene una solucion"]
+    },
+
+    {"tag": "enamorado",
+        "patterns": ["Estoy enamorado","Ella me gusta ","El amor es bonito","Estoy es hermosa", "Ella es la chica de mis sueños ","Estar con ella", "Ya no quiero vivir"],
+        "responses": ["El amor es lo mas lindo de la vida ♥","Enamorado? pues es lindo eh","Mientras exista amor mutuo todo estará bien :)"]
+    },
+
+    {"tag": "tranquilo",
+        "patterns": ["Estoy tranquilo","Me siento normal","Nada fuera de lo común","Chill", "Relax "],
+        "responses": ["Estar asi es estar bien con uno mismo","Paz interior ","Aprovechalo al 100%"]
+    },
+
+    {"tag": "cansado",
+        "patterns": ["Estoy cansado","Me siento muerto","No siento el cuerpo","Estoy con ganas de dormir"],
+        "responses": ["Descansa unas cuantas horas para reponer fuerzas","Toma una ducha ","Tomate una siesta"]
+    },
+
+    {"tag": "estresado",
+        "patterns": ["Estoy estresado","Me siento estresado","Me duele la cabeza","Me tiembla el ojo", "Me tiembla la mano"],
+        "responses": ["El estres es peligroso, consulta para programarte una llamada","Sintomas de estres? comunicate con un de los especialistas "]
+    },
+
+    {"tag": "enfermo",
+        "patterns": ["Estoy enfermo","Tengo dolor","TTengo nauseas","Me corte", "Tuve un accidente"],
+        "responses": ["Escribe *llamar* para asignarte una cita","Comunicate urgente con nuestro registro telefonico "]
+    },
+
+    {"tag": "ayuda",
+        "patterns": ["Necesito ayuda","Auxilio!","Socorro!", "Mi vida ya no tiene sentido "," Estoy desanimado","Ya nada tiene sentido" , "Ya no quiero vivir"],
+        "responses": ["Necesitas ayuda urgente? Puedes conusltar en nuestro registro","Necesitas llamar a alguien?, Escribe *Alo* ","Te puedo brindar numeros para ayudarte?"]
+    },
+
+    {"tag": "llamar",
+        "patterns": ["LLamar","Dame numeros telefonicos","Quiero comunicarme","programar llamada","celular"],
+        "responses": ["978-546-412","956-213-456","945-123-457","914-123-753"]
+    },
+
+    {"tag": "sintomas",
+        "patterns": ["Tengo nauseas","Tengo dolor de cabeza","Me duele el estomago ","Me fracture una hueso", "Sangrado","Me desmayo", "Me estoy asfixiando","Me estoy ahogando"],
+        "responses": ["Te brindamos el numero del hospital para poder ayudarte: 123-324-234 ", "El numero del hospital mas cercano es: 123-324-234"]
+    },
+
+    {"tag": "acercade",
+        "patterns": ["Quien eres?","Para que sirves?"],
+        "responses": ["Soy BOTITO y fui creado para escucharte e interactuar contigo, desarrollado para brindarte ayuda en todo momento",
+            "Yo soy BOTITO y estoy a tu disposicion para escucharte en todo lo que quieras contarme, Consultas? Dudas?"]
+    },
+
+    {"tag": "agradecimiento",
+        "patterns": ["Gracias por la ayuda","me salvaste la vida", "mejoraste mi ritmo de vida"],
+        "responses": ["Soy BOTITO y estoy agradecido de haberte ayudado","Yo soy BOTITO y estoy feliz de que estes mejor"]
+    },
+
+    {"tag": "despedida",
+        "patterns": ["hasta pronto","adios","Chau", "bye","hablamos","Hasta luego","Me voy"],
+        "responses": ["Un gusto conocerte","Hasta pronto <3", "Hablamos mas tarde :)","hablamos despues...","Good bye :* "]
+    }
+]}
